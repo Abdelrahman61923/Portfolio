@@ -9,7 +9,8 @@
     --second-transtion: 0.7s;   
 }
 ::-webkit-scrollbar {
-    width: 18px;
+    width: 15px;
+    border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
     background: var(--main-buttom);
@@ -118,6 +119,7 @@ p {
 @media (max-width: 767px){
     .landing {
         padding-top: 16px;
+        height: 115vh;
     }
 }
 .landing .circle {
